@@ -1,0 +1,6 @@
+# Modern.CSharp.Analyzers configuration for Orleans.Multiservice rules
+[*.cs]
+mcs_multiservice_apis_namespaces      = MyCompany.MyProduct.Apis1,MyCompany.MyProduct.Apis3            # default: *.*.Apis
+mcs_multiservice_contracts_namespaces = MyCompany.MyProduct.Contracts1,MyCompany.MyProduct.Contracts2  # default: *.*.Contracts
+mcs_multiservice_services_namespaces  = MyCompany.MyProduct.*Service1,MyCompany.MyProduct.*Service2    # default: *.*.*Service
+mcs_multiservice_other_namespaces     = MyCompany.MyProduct.Other1,MyCompany.MyProduct.Other2          # default: none
